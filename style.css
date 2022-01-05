@@ -1,0 +1,260 @@
+/*cor de todo o fundo*/
+.body-back{
+	background-color: #d3e4de94;;
+}
+/*tamanho da imagem no menu*/
+.img-logo{
+	width: 40px;
+}
+/*para tirar toda a margem interior*/
+.no-padding{
+	padding: 0px;
+}
+/*para tirar toda a margem exterior*/
+.no-margin{
+	margin: 0px;
+}
+/*cor de fundo e espaçamento interior do menu*/
+.nav{
+	background-color: #d3e4dec2;
+	padding: 15px 15px 30px 15px;	
+}
+/*fonte, tamanho e cor do texto que acompanha o logo no menu*/
+.texto-logo{
+	font-family: 'Gamja Flower', cursive;
+	color: #72aab9;
+	font-size: 27px;
+}
+/*espaçamento*/
+.left{
+	margin-left: 4%;
+}
+/*fonte, tamanho, estilo de fonte; cor dos links do menu. text-decoration serve para a decoração do texto que no caso o "none" corresponde a nenhuma decoração*/
+.nav-font{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 700;	
+	color: #89b160;
+	text-decoration: none;
+}
+/*mesmas caracteristicas da classe "nav-fonte" porém o hover serve para que enquanto o mouse estiver sobre essa classe, obedecer os atributos dela, que no caso houve mudança na cor e tamnho da fonte.*/
+.nav-font:hover{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #5e8437;
+}
+/*efeito da imagem o escrolar*/
+.parallax {
+    /* a imagem usada */
+    background-image: url("imgs/sobre.jpg");
+    /* tamanho da altura ocupada */
+    min-height: 570px; 
+    /* Criando o parallax */
+    /*mantem a imagem fixa na tela dando o efeito ao scrollar*/
+    background-attachment: fixed;
+    /*faz a imagem ficar no centro*/
+    background-position: center;
+    /*faz a imagem nao se repetir*/
+    background-repeat: no-repeat;
+    /*faz a imagem ocupar todo o espaco designado a ela*/
+    background-size: cover;
+}
+/*fonte, tamanho da fonte, tipo de fonte e cor da fonte*/
+.label1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:  #5e8437;
+}
+/*espaçamentos*/
+.espaco-div{
+	margin-left: 20px;
+    margin-bottom: 10px;
+}
+/*é uma div que possui o atributo margin para dar a responsividade, background-color para dar cor ao fundo, box-shadow para sombras, padding para espaçamento interno e border-radius para arredondamendo da borda*/
+.card{
+	margin: 30px 30px 30px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000080;
+	padding: 32px 15px;
+	border-radius: 4px;
+}
+/*é uma div que possui o atributo margin para dar a responsividade, background-color para dar cor ao fundo, box-shadow para sombras, padding para espaçamento interno e border-radius para arredondamendo da borda*/
+.card2{
+	margin: 30px 10px 10px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000080;
+	padding: 20px 15px 10px 15px;
+	border-radius: 4px;
+}
+/*é uma div que possui o atributo margin para dar a responsividade, background-color para dar cor ao fundo, box-shadow para sombras, padding para espaçamento interno e border-radius para arredondamendo da borda*/
+.card3{
+	margin: 30px 10px 30px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000080;
+	padding: 20px 15px 10px 15px;
+	border-radius: 4px;
+}
+/*espaçamento entre linhas, fonte, tamanho da fonte, tipo de fonte e cor da fonte*/
+.label2{
+	line-height: 1.3;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #909090;
+}
+/*espaçamentos*/
+.espaco-2{
+	margin-top: 20px;
+}
+/*cor de fonte*/
+.verde{
+	color: #5e8437;
+}
+/*cor de fundo e espaçamento interno*/
+.rodape{
+	background-color:  #5e8437;
+	padding: 35px;
+}
+/*fonte, tamanho da fonte, tipo de fonte e cor da fonte*/
+.label3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:  #FFF;
+}
+/*cor da donte*/
+.branco{
+	color:#FFF;
+}
+/*fonte, tamanho da fonte, tipo de fonte, cor da fonte e decoração do link ao passar o mouse sobre ele*/
+.link{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #909090;	
+	text-decoration: none!important;
+
+}
+/*fonte, tipo de fonte, cor da fonte, tipo de cursor ao passar sobre o link. O atributo hover é uma condição para que as caracteristicas dele sejam obedecidas somente no momento em que o mouse estiver sobre a classe*/
+.link:hover{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #5f5f5f;
+	cursor: pointer;	
+}
+/*fonte, tamanho da fonte, tipo de fonte, cor da fonte e espaçamento entre linhas*/
+.label4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:  #FFF;
+	line-height: 1.6;
+}
+/*efeito da imagem o escrolar*/
+.parallax2 {
+    /* a imagem usada */
+    background-image: url("imgs/atualidade.jpg");
+    /* tamanho da altura ocupada */
+     min-height: 450px; 
+    /* Criando o parallax */
+    /*mantem a imagem fixa na tela dando o efeito ao scrollar*/
+    background-attachment: fixed;
+    /*faz a imagem ficar no centro*/
+    background-position: center;
+    /*faz a imagem nao se repetir*/
+    background-repeat: no-repeat;
+    /*faz a imagem ocupar todo o espaco designado a ela*/
+    background-size: cover;
+}
+.parallax3 {
+    /* a imagem usada */
+    background-image: url("imgs/atualidade-noite.jpg");
+    /* tamanho da altura ocupada */
+     min-height: 450px; 
+    /* Criando o parallax */
+    /*mantem a imagem fixa na tela dando o efeito ao scrollar*/
+    background-attachment: fixed;
+    /*faz a imagem ficar no centro*/
+    background-position: center;
+    /*faz a imagem nao se repetir*/
+    background-repeat: no-repeat;
+    /*faz a imagem ocupar todo o espaco designado a ela*/
+    background-size: cover;
+}
+.parallax4 {
+    /* a imagem usada */
+     background-image: url("imgs/atualidade-pessoas.jpg");
+    /* tamanho da altura ocupada */
+     min-height: 450px; 
+    /* Criando o parallax */
+    /*mantem a imagem fixa na tela dando o efeito ao scrollar*/
+    background-attachment: fixed;
+    /*faz a imagem ficar no centro*/
+    background-position: center;
+    /*faz a imagem nao se repetir*/
+    background-repeat: no-repeat;
+    /*faz a imagem ocupar todo o espaco designado a ela*/
+    background-size: cover;
+}
+.parallax5 {
+    /* a imagem usada */
+     background-image: url("imgs/sanatorio.jpg");
+    /* tamanho da altura ocupada */
+     min-height: 450px; 
+    /* Criando o parallax */
+    /*mantem a imagem fixa na tela dando o efeito ao scrollar*/
+    background-attachment: fixed;
+    /*faz a imagem ficar no centro*/
+    background-position: center;
+    /*faz a imagem nao se repetir*/
+    background-repeat: no-repeat;
+    /*faz a imagem ocupar todo o espaco designado a ela*/
+    background-size: cover;
+}
+
+.img{
+	/*nao se movimentar*/
+	display: block;
+	/*auto ajustar as margens externas*/
+    margin-left: auto;
+    margin-right: auto;
+    /*posição relativa a outro elemento*/
+    position: relative;
+}
+
+/*condição usada para que os atributos ada classe sejao somente obecidos quando o tamenho de tela da condição corresponder ao tamanho de tela no navegador*/
+@media screen and (max-width: 899px) {
+	/*tamanho de imagem*/
+	.imgs-tela-pequena{
+		width: 100%;
+	}
+	/*é uma div que possui o atributo margin para dar a responsividade, background-color para dar cor ao fundo, box-shadow para sombras, padding para espaçamento interno e border-radius para arredondamendo da borda*/
+	.card4{
+	    margin: 30px 40px 30px;
+	    background-color: #FFFFFF;
+		box-shadow: 0px 3px 6px #00000080;
+		padding: 32px 15px;
+		border-radius: 4px;
+	}
+}
+/*condição usada para que os atributos ada classe sejao somente obecidos quando o tamenho de tela da condição corresponder ao tamanho de tela no navegador*/
+@media screen and (min-width: 900px) {
+	/*é uma div que possui o atributo margin para dar a responsividade, background-color para dar cor ao fundo, box-shadow para sombras, padding para espaçamento interno e border-radius para arredondamendo da borda*/
+	.card4{
+	    margin: 30px 230px 30px;
+	    background-color: #FFFFFF;
+		box-shadow: 0px 3px 6px #00000080;
+		padding: 32px 15px;
+		border-radius: 4px;
+	}
+	/*tamanho de imagem*/
+	.imgs-grandes{
+		width: 60%;
+	}
+}
+
+
+
